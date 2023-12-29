@@ -11,6 +11,7 @@ body {
   height: 100vh;
   display: flex;
   align-items: center;
+  background: -webkit-linear-gradient(left, #003366, #004080, #0059b3, #0073e6);
 }
 .container {
   align-items: center;
@@ -60,7 +61,8 @@ button {
   width: calc(97% + 2px);
   /* Adjusted width to match input fields */
   padding: 10px;
-  background-color: #1743e3;
+  /* background-color: #1743e3; */
+  background: -webkit-linear-gradient(left, #003366, #004080, #0059b3, #0073e6);
   color: #fff;
   border: none;
   border-radius: 4px;

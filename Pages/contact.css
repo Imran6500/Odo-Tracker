@@ -9,6 +9,7 @@ form {
 body {
   font-family: Arial, sans-serif;
   background-color: #f2f2f2;
+  background: -webkit-linear-gradient(left, #003366, #004080, #0059b3, #0073e6);
 }
 
 header,
@@ -61,7 +62,8 @@ input[type="submit"] {
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  background-color: #1743e3;
+  background: -webkit-linear-gradient(left, #003366, #004080, #0059b3, #0073e6);
+
   color: white;
   transition: background-color 0.3s ease;
 }

@@ -11,6 +11,7 @@ body {
   /* height: 100vh;
   display: flex; 
   align-items: center" */
+  background: -webkit-linear-gradient(left, #003366, #004080, #0059b3, #0073e6);
 }
 
 .container {
@@ -46,7 +47,8 @@ input[type="text"] {
 
 button {
   padding: 10px 20px;
-  background-color: #1743e3;
+  background: -webkit-linear-gradient(left, #003366, #004080, #0059b3, #0073e6);
+  /* background-color: #1743e3; */
   color: #fff;
   border: none;
   border-radius: 4px;

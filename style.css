@@ -13,6 +13,10 @@
   --color-dark: #333;
   --color-black: #222;
 }
+::selection {
+  background: #1a75ff;
+  color: #fff;
+}
 .btn {
   display: inline-block;
   width: fit-content;
@@ -28,6 +32,7 @@
   opacity: 0;
   animation: logoAni 1s ease forwards;
   animation-delay: 1.3s;
+  background: -webkit-linear-gradient(left, #003366, #004080, #0059b3, #0073e6);
 }
 .btn:hover {
   background: transparent;
